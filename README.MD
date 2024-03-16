@@ -14,7 +14,7 @@ This Privacy Policy outlines the practices of MCRAFT.FUN concerning the collecti
    We do not store user API tokens. Our application accesses directories specified by the user, starting from the root directory up to the user-specified path, to retrieve necessary data for its functionalities. For example, if the user specifies "/worlds/", our application will read the contents of "/", then the contents of "/worlds/", and if "/worlds/" contains subdirectories such as "/a/", the application will further read the contents of "/worlds/a/level.dat". When a world is loaded, the application also reads contents of "/worlds/a/**", such as "/worlds/a/region/*.mca".
 
 4. **Peer-to-Peer Connectivity**:
-   We utilize the public PeerJS API to facilitate peer-to-peer connections among users. However, such connections are established only upon the user's explicit action, such as clicking on the "Open to WAN" button within the pause menu of the game.
+   We utilize the public PeerJS API to facilitate peer-to-peer connections among users. However, such connections are established only upon the user's explicit action, such as clicking on the "Open to WAN" button within the pause menu of the game. This way user world (region files and player data) files can be shared with other users using WebRTC.
 
 5. **Third-Party Services**:
    Our application may integrate with third-party services, such as Google APIs, to provide specific functionalities. Users are encouraged to review the privacy policies of these third-party services for information on their data handling practices.
