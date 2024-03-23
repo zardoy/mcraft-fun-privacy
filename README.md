@@ -4,6 +4,10 @@ Effective Date: March 14, 2024
 
 This Privacy Policy outlines the practices of MCRAFT.FUN concerning the collection, usage, and protection of user data. By using MCRAFT.FUN, you consent to the terms described herein.
 
+### Privacy Disclosure (Google Drive)
+
+MCRAFT.FUN's handling and sharing of any information received from Google APIs will comply with [Google API Services User Data Policy](https://developers.google.com/terms/api-services-user-data-policy#additional_requirements_for_specific_api_scopes), including the Limited Use requirements. Our application **does not collect** user information beyond what is necessary for its core functionality. We never share user data with anyone.
+
 1. **Data Collection**:
    We do not collect, store, or share any kind of user statistics or personal data. Our application does not utilize any trackers or analytics tools.
 
